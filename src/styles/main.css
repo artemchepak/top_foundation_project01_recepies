@@ -55,13 +55,38 @@ ul {
     width: 60%;
     height: 60%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: rgba(252, 252, 252, 0.3);;
+    background-color: rgba(252, 252, 252, 0.7);;
     z-index: 1;
     padding: 50px;
+    display: flex;
   }
+
+  .container-img {
+    width: 750px;
+    height: 100%;
+    position: relative;
+}
+
+.container-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
 
   .list-item {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+  }
+
+  .container-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
   }
